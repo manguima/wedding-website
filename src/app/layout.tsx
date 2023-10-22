@@ -73,7 +73,7 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body>
+      <body style={{ background: "#f5f5f5" }}>
         <MantineProvider
           theme={{
             fontFamily: fontRoboto.style.fontFamily,
